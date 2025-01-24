@@ -10,9 +10,7 @@ const fs = require('fs');
 
 
 const transporter=nodemailer.createTransport(sendgridTransport({
-  auth:{
-    api_key:'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'
-  }
+
 }));
 
 exports.getLogin = (req, res, next) => {
